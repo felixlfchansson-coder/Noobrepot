@@ -1,0 +1,111 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0f0f0f;
+      color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.9)),
+        url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1600&auto=format&fit=crop");
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 5rem;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      color: #00ff88;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 1.2rem;
+      color: #cccccc;
+      max-width: 600px;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      background: #111;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      border-bottom: 1px solid #222;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00ff88;
+    }
+
+    section {
+      padding: 100px 10%;
+    }
+
+    .card {
+      background: #181818;
+      padding: 30px;
+      border-radius: 15px;
+      margin-top: 25px;
+      border: 1px solid #222;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #00ff88;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #00ff88;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #111;
+      color: #777;
+      border-top: 1px solid #222;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #00ff88;
+      color: black;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: white;
+    }
