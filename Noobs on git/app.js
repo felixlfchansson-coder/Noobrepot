@@ -5,6 +5,7 @@ function greetUser(name) {
 
 function calculateTotal(price, tax) {
   let total = price + tax;
+  let catherine;
   return total;
 }
 
